@@ -1,0 +1,18 @@
+export const refreshTime = 1000 * 60 * 0.25;
+
+// Batch Token Balances Contract
+export const BATCH_TOKEN_BALANCES_CONTRACT =
+  "0x31C0e6E622116EE00e8d6DbBf845759BE17e6D93";
+
+// Balance refresh interval (1 minute)
+export const BALANCE_REFRESH_INTERVAL = 1000 * 60; // 1 minute
+
+// Common token addresses (Base network)
+export const TOKEN_ADDRESSES = {
+  ETH: "0x0000000000000000000000000000000000000000", 
+  WETH: "0x4200000000000000000000000000000000000006",
+  CBBTC: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+  USDC: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+  AWETH: "0xD4a0e0b9149BCee3C920d2E00b5dE09138fd8bb7", 
+  DUSDC :"0x59dca05b6c26dbd64b5381374aAaC5CD05644C28",
+};
