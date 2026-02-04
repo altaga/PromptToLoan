@@ -40,16 +40,12 @@ Instead, it prepares validated transaction payloads that are returned to the fro
 
 ### Agent Overview
 
-<img src="./images/agent.png">
-
 - LLM: LLaMA 3.1 (AWS Bedrock)
 - Framework: LangChain + LangGraph
 - Memory: Thread-based session memory
 - Execution Model: Tool-only responses
 - Primary Chain: Base Mainnet
 - The agent is exposed via an Express API and optimized for deterministic, production-grade execution.
-
-### Features
 
 #### AAVE v3 (Base)
 
@@ -303,3 +299,27 @@ const borrowAndBridgeTool = tool(
 ```
 
 Full example: [Agent Code](./Agent/index.js)
+
+## Mobile DApp:
+
+It combines real-time asset tracking, an AI-powered natural language transaction agent, AAVE lending integration, and cross-chain bridging.
+
+### Key Features
+- Asset Dashboard: Centralized view of your multi-chain portfolio and balances.
+
+- AI Chat Agent: Execute complex DeFi tasks (swaps, supplies, bridges) using natural language.
+  - Source Code: [Agent UI](./Prompt2Loan/src/app/(screens)/tabs/tab2.js)
+
+- AAVE Management: Monitor Health Factor, manage collateral, and track lending/borrowing positions in real-time.
+  - Source Code: [AAVE UI](./Prompt2Loan/src/app/(screens)/tabs/tab3.js)
+
+- Cross-Chain Bridge: Move assets between 14+ EVM networks (Ethereum, Arbitrum, Base, Polygon, etc.) with LiFi.
+
+  - Source Code: [LiFi UI](./Prompt2Loan/src/app/(screens)/tabs/tab4.js) 
+  - Source Code: [LiFi API](./Prompt2Loan/src/app/api/quote+api.js)
+
+- Smart Transaction Handling: Automated detection of AI "tool calls" that trigger direct wallet interaction for user confirmation.
+
+### UI Screenshots:
+
+<img src="./Images//assistant.png" width="32%" /> <img src="./Images/aave.png" width="32%" /> <img src="./Images/lifi.png" width="32%" />
