@@ -17,7 +17,7 @@ The platform is designed for production use, combining institutional-grade archi
 * **Web App**: [WEBAPP](https://prompt2loan.app)
 * **Demo Video**: [DEMO](pending...)
 * **LiFi Agent**: [DOCS](#swaps--cross-chain-transfers-lifi)
-* **LiFi UI**: [DOCS](#ui-screenshots)
+* **LiFi UI**: [DOCS](#mobile-dapp)
 
 ## System Architecture
 
