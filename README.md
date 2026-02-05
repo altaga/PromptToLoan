@@ -15,7 +15,7 @@ The platform is designed for production use, combining institutional-grade archi
 ### Live Deployment (Base Mainnet)
 
 * **Web App**: [WEBAPP](https://prompt2loan.expo.app/)
-* **Demo Video**: [DEMO](pending...)
+* **Demo Video**: [DEMO](https://ethglobal.storage/projects/drmfm/video/high.mp4?t=1770280358848)
 * **LiFi Agent**: [DOCS](#swaps--cross-chain-transfers-lifi)
 * **LiFi UI**: [DOCS](#mobile-dapp)
 
